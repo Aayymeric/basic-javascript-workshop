@@ -69,7 +69,7 @@ function repeatString (str,a) {
 } 
  console.log(repeatString("ham",3)); 
  
- //
+ // for loop to print numbers 1 to 10
  
  function forLoop () { 
        for (var i=0; i<=10; i++) {
@@ -78,4 +78,50 @@ function repeatString (str,a) {
        
 };
    forLoop();     
+   
+ //  print numbers as words
+ 
+ function printWords (i) {  
      
+     if (i === 1) { 
+         console.log("one"); 
+     } 
+     
+     if (i === 2)   { 
+         console.log("two"); 
+     }  
+     
+     if (i === 3) { 
+         console.log("three"); 
+     } 
+     
+     if (i === 4) { 
+         console.log("four");  
+     }  
+     
+     if (i === 5) { 
+         console.log("five"); 
+     } 
+     
+     if (i === 6) { 
+         console.log("six"); 
+     } 
+     
+     if (i === 7) { 
+         console.log("seven"); 
+     } 
+     
+     if (i === 8) { 
+         console.log("eight"); 
+     } 
+     
+     if (i === 9) { 
+         console.log("nine"); 
+     } 
+     
+     if (i === 10) { 
+         console.log("ten"); 
+     }
+     
+ }
+ 
