@@ -11,10 +11,12 @@ function lastLetter(str) {
 console.log(lastLetter("Hello"))  
 
 //  Write a function that takes a string and a number, and returns the character at the position represented by the number.
- function myFunction() {
-    var string = "HELLO WORLD";
-    var result = str.charAt(3)
+ function myFunction(str,result) {
+     
+     return str.charAt(result)
  } 
+  console.log(myFunction("hello",4)) 
+  
   
 /* function that adds two numbers
 function (a,b)  {  
