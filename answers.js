@@ -4,8 +4,21 @@ function firstLetter(str) {
 }
 console.log(firstLetter("Hello"))
  
- 
+// return the last caracther of a string
 function lastLetter(str) { 
     return str[str.length-1] 
 } 
-console.log(lastLetter("Hello"))
+console.log(lastLetter("Hello"))  
+
+//  Write a function that takes a string and a number, and returns the character at the position represented by the number.
+ function myFunction() {
+    var string = "HELLO WORLD";
+    var result = str.charAt(3)
+ } 
+  
+/* function that adds two numbers
+function (a,b)  {  
+    return (a+b) 
+}  
+    console.log(1,1); 
+    */ 
