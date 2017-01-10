@@ -18,9 +18,13 @@ console.log(lastLetter("Hello"))
   console.log(myFunction("hello",4)) 
   
   
-/* function that adds two numbers
-function (a,b)  {  
-    return (a+b) 
+ // function that adds two numbers 
+ 
+function twoNumbersSum(a,b)  {  
+    return a+b 
 }  
-    console.log(1,1); 
-    */ 
+    console.log(twoNumbersSum(1,15)); 
+     
+
+
+     
