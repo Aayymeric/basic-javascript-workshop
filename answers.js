@@ -24,7 +24,13 @@ function twoNumbersSum(a,b)  {
     return a+b 
 }  
     console.log(twoNumbersSum(1,15)); 
-     
+      
+// function that multiplies numbers  
+ 
+ function multiply (a,b) { 
+          return a * b 
+}
+console.log(multiply(4,12)); 
 
 
      
