@@ -124,4 +124,13 @@ function repeatString (str,a) {
      }
      
  }
- 
+  // function that returns the factorial of a number 
+  
+  function sFact(num)
+{
+    var rval=1;
+    for (var i = 2; i <= num; i++)
+        rval = rval * i;
+    return rval;
+}
+ console.log(sFact(5)); 
