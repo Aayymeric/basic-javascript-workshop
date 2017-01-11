@@ -133,4 +133,16 @@ function repeatString (str,a) {
         rval = rval * i;
     return rval;
 }
- console.log(sFact(5)); 
+ console.log(sFact(5));  
+ 
+ // function that returns the reverse of a string 
+ 
+ function reverseString(str) {
+    var newString = "";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+reverseString("goodbye");
+     
